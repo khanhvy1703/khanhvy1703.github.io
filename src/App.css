@@ -1,0 +1,133 @@
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.side-bar {
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.side-bar-brand {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.mg-top {
+  margin-top: 50px;
+}
+
+.about-para {
+  text-indent: 30px;
+  font-size: 18px;
+}
+
+.about-language-tool-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.about-language-tool {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-icon {
+  height: 8%;
+  width: 8%;
+}
+
+.main-header {
+  font-size: 32px;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: cadetblue;
+}
+
+.main-color-font {
+  color: black !important;
+  padding-top: 60px;
+}
+
+@media (max-width:770px){
+  .about{
+    margin-top: 0;
+  }
+  .about-para {
+    text-indent: 30px;
+  }
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-image {
+  height: 250px;
+  width: 250px;
+}
+
+.about-info-header {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.about-info-title {
+  font-weight: bold;
+}
+
+.about-info-flag {
+  height: 10%;
+  width: 10%;
+}
+
+.about-info {
+  font-size: 18px;
+}
+
+.mg-bottom {
+  margin-bottom: 50px;
+}
