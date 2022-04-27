@@ -55,7 +55,7 @@ export default function About() {
             iconStyle={{ background: 'rgb(71,89,101)'}}
           >
             <h3 className='vertical-timeline-element-title'>
-              SDK Coop
+              SDK Engineer Coop
             </h3>
             <h2 className='vertical-timeline-element-subtitle'>
               Skillz, Inc

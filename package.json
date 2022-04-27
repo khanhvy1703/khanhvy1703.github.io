@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://khanhvy1703.github.io",
   "dependencies": {
     "@emotion/react": "^11.9.0",

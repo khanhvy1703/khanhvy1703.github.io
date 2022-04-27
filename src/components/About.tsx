@@ -21,13 +21,14 @@ export default function About() {
               Northeastern University in Boston, MA. I am extremely enjoying it.
               I love coding and solving problems. Coding is hard and
               time-consuming but when you fix all the bugs and make your
-              programs work, the feeling after that is unspeakable.
+              programs work, the feeling after that is unspeakable. 
             </p>
             <p className='about-para'>
-              I mainly code in Java, Javascript and Typescript. My have
-              experience working with React, Typescript and NodeJS. I am
-              interested in software, webite, or mobile developement and data
-              analyst in finance, business and healthcare.
+              I mainly code in Java, Javascript and Typescript. I have had ~
+              1-year experience working with React, Typescript and NodeJS
+              through course work, internship and CS club. I am interested in
+              software, webite, or mobile developement in finance, gaming
+              industry and healthcare.
             </p>
             <p className='about-para'>
               This site is an outlet where I want to share to everyone about me:
@@ -76,7 +77,7 @@ export default function About() {
                     <li>My real name is Vy (prounciation: /V:i/)</li>
                     <li>I have an instagram account just for food </li>
                     <li>
-                      I don't like social media and I hate talking in public
+                      I don't like social media and I don't talk unless I have to
                     </li>
                   </ul>
                 </Accordion.Body>
@@ -135,7 +136,7 @@ export default function About() {
               src={require('../images/avatar.jpg')}
               roundedCircle
             />
-            <div className='about-info-header'>My info</div>
+            <div className='about-info-header'>My Info</div>
             <ColoredLine height={5} color='black' width='50%' />
             <p className='about-info'>
               <p>
