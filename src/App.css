@@ -1,46 +1,6 @@
 
-.App {
-  height: 100vh;
-  width: 100vw;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .side-bar {
-  background-color: cadetblue;
+  background-color: #5e9ea1;
   font-weight: bold;
   font-size: 20px;
 }
@@ -56,7 +16,6 @@
 
 .about-para {
   text-indent: 30px;
-  font-size: 18px;
 }
 
 .about-language-tool-title {
@@ -71,15 +30,18 @@
 }
 
 .about-icon {
-  height: 8%;
-  width: 8%;
+  height: 6%;
+  width: 6%;
 }
 
 .main-header {
   font-size: 32px;
-  margin-top: 20px;
   font-weight: bolder;
   color: cadetblue;
+}
+
+.main-mg-top {
+  margin-top: 20px;
 }
 
 .main-color-font {
@@ -120,8 +82,10 @@
 }
 
 .about-info-flag {
-  height: 10%;
-  width: 10%;
+  height: 3%;
+  width: 3%;
+  margin-left: 3px;
+  margin-right: 5px;
 }
 
 .about-info {
@@ -130,4 +94,90 @@
 
 .mg-bottom {
   margin-bottom: 50px;
+}
+
+.row-content {
+  display: flex;
+  justify-content: center;
+}
+
+.mg-top-row {
+  margin-top: 30px;
+}
+
+.hover-right:hover {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.hover-left:hover {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+@media (max-width:1399px){
+  .mg-top-col {
+    margin-top: 30px;
+  }
+
+  .hover-right:hover .hover-left:hover {
+    margin: 0;
+  }
+
+  .row-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card-title {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-bg {
+  background-color: cadetblue
+}
+
+.btn-mg-left {
+  margin-left: 5px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.card-icon {
+  height: 8%;
+  width: 8%;
+  margin-right: 15px;
+}
+
+.text-proj-info {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.proj-icon {
+  height: 2.1%;
+  width: 2.1%;
+  margin-left: 5px;
+}
+
+.footer-pd {
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.contact-icon {
+  height: 10%;
+  width: 10%;
 }

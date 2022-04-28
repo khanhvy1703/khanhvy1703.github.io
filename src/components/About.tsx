@@ -9,28 +9,34 @@ export default function About() {
       <Container className='mg-top'>
         <Row>
           <Col md={8}>
-            <p className='main-header'>My About</p>
+            <p className='main-header main-mg-top'>My About</p>
             <ColoredLine height={5} color='black' width='17%' />
-            <p className='about-para'>
-              Hi! I'm Ngoc. I am from Vietnam but currently living in Boston,
-              Massachusetts. My friends prefer to call me Victoria since they
-              keep mispronouncing my name 😭.
+            <p className='about-para font-18'>
+              <span>Hi! I'm Ngoc. I am from Vietnam</span>
+              <Image
+                className='about-info-flag'
+                src={require('../images/vn-flag.png')}
+              />
+              <span>
+                but currently living in Boston, Massachusetts. My friends prefer
+                to call me Victoria since they keep mispronouncing my name 😭.
+              </span>
             </p>
-            <p className='about-para'>
+            <p className='about-para font-18'>
               I am currently studying Computer Science and Mathematics at
               Northeastern University in Boston, MA. I am extremely enjoying it.
               I love coding and solving problems. Coding is hard and
               time-consuming but when you fix all the bugs and make your
-              programs work, the feeling after that is unspeakable. 
+              programs work, the feeling after that is unspeakable.
             </p>
-            <p className='about-para'>
+            <p className='about-para font-18'>
               I mainly code in Java, Javascript and Typescript. I have had ~
               1-year experience working with React, Typescript and NodeJS
               through course work, internship and CS club. I am interested in
               software, webite, or mobile developement in finance, gaming
               industry and healthcare.
             </p>
-            <p className='about-para'>
+            <p className='about-para font-18'>
               This site is an outlet where I want to share to everyone about me:
               projects, skills and experience.
             </p>
@@ -77,7 +83,8 @@ export default function About() {
                     <li>My real name is Vy (prounciation: /V:i/)</li>
                     <li>I have an instagram account just for food </li>
                     <li>
-                      I don't like social media and I don't talk unless I have to
+                      I don't like social media and I don't talk unless I have
+                      to
                     </li>
                   </ul>
                 </Accordion.Body>
@@ -101,6 +108,14 @@ export default function About() {
                 <Image
                   className='about-icon'
                   src={require('../images/react.png')}
+                />
+                <Image
+                  className='about-icon'
+                  src={require('../images/html5.png')}
+                />
+                <Image
+                  className='about-icon'
+                  src={require('../images/css.png')}
                 />
                 <Image
                   className='about-icon'
@@ -138,6 +153,7 @@ export default function About() {
             />
             <div className='about-info-header'>My Info</div>
             <ColoredLine height={5} color='black' width='50%' />
+
             <p className='about-info'>
               <p>
                 <span className='about-info-title'>Full name:</span>
@@ -167,14 +183,44 @@ export default function About() {
                 <span>Computer Science and Math</span>
               </p>
               <p>
-                <span className='about-info-title'>Country:</span>
+                <span className='about-info-title'>Contact:</span>
                 <br></br>
                 <span>
-                  Vietnam{' '}
-                  <Image
-                    className='about-info-flag'
-                    src={require('../images/vn-flag.png')}
-                  />
+                  <a
+                    className='link'
+                    target='_blank'
+                    href='https://github.com/khanhvy1703'
+                    rel='noreferrer'
+                  >
+                    <Image
+                      className='contact-icon'
+                      src={require('../images/github.png')}
+                    />
+                  </a>
+                  <a
+                    className='link'
+                    target='_blank'
+                    href='https://www.linkedin.com/in/ngoc-khanh-vy-le/'
+                    rel='noreferrer'
+                    style={{ marginLeft: '15px' }}
+                  >
+                    <Image
+                      className='contact-icon'
+                      src={require('../images/linkedln.png')}
+                    />
+                  </a>
+                  <a
+                    className='link'
+                    target='_blank'
+                    href='mailto:le.ngoc@northeastern.edu'
+                    rel='noreferrer'
+                    style={{ marginLeft: '15px' }}
+                  >
+                    <Image
+                      className='contact-icon'
+                      src={require('../images/email.png')}
+                    />
+                  </a>
                 </span>
               </p>
             </p>

@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div id='experience' style={{ backgroundColor: 'rgba(95, 158, 160, 0.3)' }}>
       <Container>
-        <p className='main-header main-color-font mg-top'>Work Experience & Volunteer</p>
+        <p className='main-header main-color-font'>Work Experience & Volunteer</p>
         <ColoredLine height={5} color='black' width='30%' />
         <VerticalTimeline>
           <VerticalTimelineElement
