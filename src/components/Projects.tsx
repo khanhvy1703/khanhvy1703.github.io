@@ -8,7 +8,7 @@ export default function Projects() {
     <div id='projects'>
       <Container>
         <p className='main-header'>Projects</p>
-        <ColoredLine height={5} color='black' width='17%' />
+        <ColoredLine height={5} color='black' width='10%' />
         <Row>
           <Col className='row-content'>
             <Card
@@ -334,54 +334,6 @@ export default function Projects() {
                     className='link'
                     target='_blank'
                     href='https://github.com/khanhvy1703/Snake'
-                    rel='noreferrer'
-                  >
-                    Source code
-                  </a>
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row className='mg-top-row'>
-          <Col className='row-content'>
-            <Card
-              className='hover-right'
-              style={{
-                width: '35rem',
-                borderRadius: '10px',
-                boxShadow: '1px 3px 1px #5F9EA0',
-              }}
-            >
-              <Card.Body>
-                <Card.Title>Matching Cards</Card.Title>
-                <Card.Text>
-                  <p className='about-para font-18'>
-                    This is my version of the classic mix-match game.
-                  </p>
-                  <p className='about-para font-18'>
-                    The game rule is easy: find two cards that contain the same
-                    pictures. You will win when you find all the pairs. The deck
-                    will be shuffled every new game.
-                  </p>
-                  <Image
-                    className='card-icon'
-                    src={require('../images/html5.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/css.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/javascript.png')}
-                  />
-                </Card.Text>
-                <Button variant='light' className='btn-bg'>
-                  <a
-                    className='link'
-                    target='_blank'
-                    href='https://github.com/khanhvy1703/Memory-Game'
                     rel='noreferrer'
                   >
                     Source code

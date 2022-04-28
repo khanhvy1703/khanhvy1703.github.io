@@ -33,7 +33,7 @@ export default function About() {
               I mainly code in Java, Javascript and Typescript. I have had ~
               1-year experience working with React, Typescript and NodeJS
               through course work, internship and CS club. I am interested in
-              software, webite, or mobile developement in finance, gaming
+              software, website, or mobile developement in finance, gaming
               industry and healthcare.
             </p>
             <p className='about-para font-18'>
