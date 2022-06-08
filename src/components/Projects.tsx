@@ -156,6 +156,107 @@ export default function Projects() {
               }}
             >
               <Card.Body>
+                <Card.Title>Pyramid Solitare</Card.Title>
+                <Card.Text>
+                  <p className='about-para font-18'>
+                    This project was created for Object-Oriented Design class
+                    (CS3500). The source code for this project has been set
+                    private due to the instructor's requests.
+                  </p>
+                  <p className='about-para font-18'>
+                    This is a text-based version of Pyramid Solitaire game. It
+                    is made by using the MVC design pattern and OOP, using the
+                    command-line arguments to play. The game is enhanced and
+                    there are 3 different levels for users to choose.
+                  </p>
+                  <Image
+                    className='card-icon'
+                    src={require('../images/java.png')}
+                  />
+                </Card.Text>
+                <Button
+                  variant='secondary'
+                  disabled
+                  className='btn-bg btn-mg-left'
+                >
+                  Source code
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className='row-content mg-top-col'>
+            <Card
+              className='hover-left'
+              style={{
+                width: '35rem',
+                borderRadius: '10px',
+                boxShadow: '1px 3px 1px #5F9EA0',
+              }}
+            >
+              <Card.Body>
+                <Card.Title>Snake Game</Card.Title>
+                <Card.Text>
+                  <p className='about-para font-18'>
+                    This is my version of the classic, famous and nostalgic
+                    arcade snake game. The gameplay is using the arrow keys to
+                    control the snake and eat the food. The game can only be
+                    played on a computer
+                  </p>
+                  <p className='about-para font-18'>
+                    After the game is over, the users can choose to save the
+                    score and let their score show on the leaderboard if they
+                    can make into top 5 highest score
+                  </p>
+                  <Image
+                    className='card-icon'
+                    src={require('../images/react.png')}
+                  />
+                  <Image
+                    className='card-icon'
+                    src={require('../images/graphql.png')}
+                  />
+                  <Image
+                    className='card-icon'
+                    src={require('../images/typescript.png')}
+                  />
+                  <Image
+                    className='card-icon'
+                    src={require('../images/mongodb.png')}
+                  />
+                  <Image
+                    className='card-icon'
+                    src={require('../images/nodeJS.png')}
+                  />
+                  <Image
+                    className='card-icon'
+                    src={require('../images/apollo.png')}
+                  />
+                </Card.Text>
+                <Button variant='light' className='btn-bg'>
+                  <a
+                    className='link'
+                    target='_blank'
+                    href='https://github.com/khanhvy1703/snake-react'
+                    rel='noreferrer'
+                  >
+                    Source code
+                  </a>
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row className='mg-top-row'>
+          <Col className='row-content'>
+            <Card
+              className='hover-right'
+              style={{
+                width: '35rem',
+                borderRadius: '10px',
+                boxShadow: '1px 3px 1px #5F9EA0',
+              }}
+            >
+              <Card.Body>
                 <Card.Title>Password Generator</Card.Title>
                 <Card.Text>
                   <p className='about-para font-18'>
@@ -247,97 +348,6 @@ export default function Projects() {
                   className='btn-bg btn-mg-left'
                 >
                   Source code
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-
-        <Row className='mg-top-row'>
-          <Col className='row-content'>
-            <Card
-              className='hover-right'
-              style={{
-                width: '35rem',
-                borderRadius: '10px',
-                boxShadow: '1px 3px 1px #5F9EA0',
-              }}
-            >
-              <Card.Body>
-                <Card.Title>Pyramid Solitare</Card.Title>
-                <Card.Text>
-                  <p className='about-para font-18'>
-                    This project was created for Object-Oriented Design class
-                    (CS3500). The source code for this project has been set
-                    private due to the instructor's requests.
-                  </p>
-                  <p className='about-para font-18'>
-                    This is a text-based version of Pyramid Solitaire game. It
-                    is made by using the MVC design pattern and OOP, using the
-                    command-line arguments to play. The game is enhanced and
-                    there are 3 different levels for users to choose.
-                  </p>
-                  <Image
-                    className='card-icon'
-                    src={require('../images/java.png')}
-                  />
-                </Card.Text>
-                <Button
-                  variant='secondary'
-                  disabled
-                  className='btn-bg btn-mg-left'
-                >
-                  Source code
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col className='row-content mg-top-col'>
-            <Card
-              className='hover-left'
-              style={{
-                width: '35rem',
-                borderRadius: '10px',
-                boxShadow: '1px 3px 1px #5F9EA0',
-              }}
-            >
-              <Card.Body>
-                <Card.Title>Snake</Card.Title>
-                <Card.Text>
-                  <p className='about-para font-18'>
-                    This is my version of the classic, famous and nostalgic
-                    arcade snake game. The gameplay is using the arrow keys to
-                    control the snake and eat the food. The game can only be
-                    played on a computer
-                  </p>
-                  <p className='about-para font-18'>
-                    There is a small bug happening: when the user's score is 0
-                    and if the snake eats the food, it's supossed to return
-                    "GAME OVER" screen but instead the score keeps substracting
-                    to negative score
-                  </p>
-                  <Image
-                    className='card-icon'
-                    src={require('../images/html5.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/css.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/javascript.png')}
-                  />
-                </Card.Text>
-                <Button variant='light' className='btn-bg'>
-                  <a
-                    className='link'
-                    target='_blank'
-                    href='https://github.com/khanhvy1703/Snake'
-                    rel='noreferrer'
-                  >
-                    Source code
-                  </a>
                 </Button>
               </Card.Body>
             </Card>

@@ -30,11 +30,11 @@ export default function About() {
               programs work, the feeling after that is unspeakable.
             </p>
             <p className='about-para font-18'>
-              I mainly code in Java, Javascript and Typescript. I have had ~
+              I am currently mainly coding in Javascript, Typescript and NodeJS. I have had ~
               1-year experience working with React, Typescript and NodeJS
               through course work, internship and CS club. I am interested in
-              software, website, or mobile developement in finance, gaming
-              industry and healthcare.
+              software engineer (frontend, backend or fullstack), or mobile developement
+              in finance/fintech, gaming industry and healthcare.
             </p>
             <p className='about-para font-18'>
               This site is an outlet where I want to share to everyone about me:
@@ -42,16 +42,10 @@ export default function About() {
             </p>
             <Accordion>
               <Accordion.Item eventKey='0'>
-                <Accordion.Header>What I do </Accordion.Header>
+                <Accordion.Header>What I do and will do </Accordion.Header>
                 <Accordion.Body>
                   <ul>
-                    <li>Wrap up my Spring semester</li>
-                    <li>Take classes during summer 1</li>
                     <li>Be a TA for CS3000 in Summer 1</li>
-                    <li>
-                      Start my new project which will be coded in
-                      React/Typescript, NodeJS, GraphQL and Redux if applicable
-                    </li>
                     <li>Go to NYC and start my coop at Priceline in July</li>
                     <li>Hike more </li>
                   </ul>
@@ -82,10 +76,6 @@ export default function About() {
                   <ul>
                     <li>My real name is Vy (prounciation: /V:i/)</li>
                     <li>I have an instagram account just for food </li>
-                    <li>
-                      I don't like social media and I don't talk unless I have
-                      to
-                    </li>
                   </ul>
                 </Accordion.Body>
               </Accordion.Item>
@@ -131,7 +121,7 @@ export default function About() {
                 />
                 <Image
                   className='about-icon'
-                  src={require('../images/mysql.png')}
+                  src={require('../images/mongodb.png')}
                 />
                 <Image
                   className='about-icon'
