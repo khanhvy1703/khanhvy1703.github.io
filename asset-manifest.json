@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.ca481e83.css",
-    "main.js": "/static/js/main.0b847567.js",
+    "main.js": "/static/js/main.f77249b9.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/avatar.jpg": "/static/media/avatar.1153a59421bf61046c41.jpg",
     "static/media/csharp.png": "/static/media/csharp.d8e9a9289dcc76d931b9.png",
-    "static/media/mysql.png": "/static/media/mysql.167c88550478e6f0f85c.png",
     "static/media/postgreSQL.png": "/static/media/postgreSQL.205c6e1cf88f5fb991e4.png",
     "static/media/nodeJS.png": "/static/media/nodeJS.aa8bc616bb8252fa29f3.png",
     "static/media/graphql.png": "/static/media/graphql.adde705891f7ea64df9e.png",
@@ -16,17 +15,18 @@
     "static/media/linkedln.png": "/static/media/linkedln.7ab7f69ae322f5a4a1d5.png",
     "static/media/github.png": "/static/media/github.69ffd9cd5a846c976177.png",
     "static/media/react.png": "/static/media/react.ac14d2f265d39f14fb97.png",
+    "static/media/apollo.png": "/static/media/apollo.9c2050eab134d5e8c743.png",
     "static/media/mikroORM.jpg": "/static/media/mikroORM.a053de2eaa8fe3337ce0.jpg",
     "static/media/typescript.png": "/static/media/typescript.29073194eeda5803e7f3.png",
     "static/media/java.png": "/static/media/java.6c64373d3b7415758078.png",
     "static/media/firebase.png": "/static/media/firebase.a4156cb67d6d0676cffc.png",
     "index.html": "/index.html",
     "main.ca481e83.css.map": "/static/css/main.ca481e83.css.map",
-    "main.0b847567.js.map": "/static/js/main.0b847567.js.map",
+    "main.f77249b9.js.map": "/static/js/main.f77249b9.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca481e83.css",
-    "static/js/main.0b847567.js"
+    "static/js/main.f77249b9.js"
   ]
 }
