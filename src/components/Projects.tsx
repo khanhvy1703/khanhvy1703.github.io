@@ -85,12 +85,15 @@ export default function Projects() {
                     Demo
                   </a>
                 </Button>
-                <Button
-                  variant='secondary'
-                  disabled
-                  className='btn-bg btn-mg-left'
-                >
-                  Source code
+                <Button variant='light' className='btn-bg'>
+                  <a
+                    className='link'
+                    target='_blank'
+                    href='https://github.com/khanhvy1703/team-project-6l'
+                    rel='noreferrer'
+                  >
+                    Source code
+                  </a>
                 </Button>
               </Card.Body>
             </Card>
