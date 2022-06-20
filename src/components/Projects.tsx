@@ -105,41 +105,43 @@ export default function Projects() {
               }}
             >
               <Card.Body>
-                <Card.Title>Restaurant Searching Mobile App</Card.Title>
+                <Card.Title>Easy Animator</Card.Title>
                 <Card.Text>
                   <p className='about-para font-18'>
-                    An app allows users to search the restaurant by entering
-                    either the dishes or restaurants' names in the specific
-                    localtion
+                    This project was created for Object-Oriented Design class
+                    (CS3500). The source code for this project has been set
+                    private due to the instructor's requests.
                   </p>
                   <p className='about-para font-18'>
-                    The search results will show the very first 50 restaurants
-                    in the list. It will also shows the rates and prices' ranges
-                    of the restaurant.
-                  </p>
-                  <p className='about-para font-18'>
-                    The result pages currently just show the three images of the
-                    most famous dishes in the restaurant
+                    The project is about building an application that helps to
+                    create simple but effective 2D animations from shapes by
+                    using MVC design pattern and OOP principles. The application
+                    allows user to input different shapes, move them, change
+                    their colors or sizes as well as the speed. It also reads
+                    the txt file and shows the text output, animation or exports
+                    svg file.
                   </p>
                   <Image
                     className='card-icon'
-                    src={require('../images/react.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/javascript.png')}
+                    src={require('../images/java.png')}
                   />
                 </Card.Text>
-
                 <Button variant='light' className='btn-bg'>
                   <a
                     className='link'
                     target='_blank'
-                    href='https://github.com/khanhvy1703/restaurant-search-app'
+                    href='https://60e3ab25582304f7c2eee526--ngockhanhvyle.netlify.app/easy-animators.svg'
                     rel='noreferrer'
                   >
-                    Source code
+                    Sample output
                   </a>
+                </Button>
+                <Button
+                  variant='secondary'
+                  disabled
+                  className='btn-bg btn-mg-left'
+                >
+                  Source code
                 </Button>
               </Card.Body>
             </Card>
@@ -203,9 +205,9 @@ export default function Projects() {
                     played on a computer
                   </p>
                   <p className='about-para font-18'>
-                    After the game is over, the users can choose to save the
-                    score and let their score show on the leaderboard if they
-                    can make into top 5 highest score
+                    After the game is over, the users can have an option to save
+                    the score and and their scores will be appeared in the
+                    leaderboard if they can make into top 5.
                   </p>
                   <Image
                     className='card-icon'
@@ -257,42 +259,33 @@ export default function Projects() {
               }}
             >
               <Card.Body>
-                <Card.Title>Password Generator</Card.Title>
+                <Card.Title>Minesweeper</Card.Title>
                 <Card.Text>
                   <p className='about-para font-18'>
-                    A simple application generates a complex password for the
-                    user.
+                    My version of classic video game. The game is recommened try
+                    on PC since the flag cant be rendered in the phone
                   </p>
                   <p className='about-para font-18'>
-                    The new password will be created dependeding on the desire
-                    length, characters of the password that users want. (upper
-                    or lower letters, numbers, and symbol). The minimum length
-                    should be 6 and the application will send an error warning
-                    if users don't choose any box options or choose the length
-                    that are less than the minimum.
+                    The gameplay is not changes: open all not-bomb cells untill
+                    there are not any not-bomb cells available to open.
+                    Currently there are three difficulties: Beginner(8x8),
+                    Intermediate(16x16) and Expert(30x16)- the custom level will
+                    be developed soon.
                   </p>
                   <Image
                     className='card-icon'
-                    src={require('../images/java.png')}
+                    src={require('../images/react.png')}
                   />
                   <Image
                     className='card-icon'
-                    src={require('../images/html5.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/css.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/javascript.png')}
+                    src={require('../images/typescript.png')}
                   />
                 </Card.Text>
                 <Button variant='light' className='btn-bg'>
                   <a
                     className='link'
                     target='_blank'
-                    href='https://github.com/khanhvy1703/Password-Generator'
+                    href='https://github.com/khanhvy1703/minesweeper-react'
                     rel='noreferrer'
                   >
                     Source code
@@ -311,43 +304,41 @@ export default function Projects() {
               }}
             >
               <Card.Body>
-                <Card.Title>Easy Animator</Card.Title>
+                <Card.Title>Restaurant Searching Mobile App</Card.Title>
                 <Card.Text>
                   <p className='about-para font-18'>
-                    This project was created for Object-Oriented Design class
-                    (CS3500). The source code for this project has been set
-                    private due to the instructor's requests.
+                    An app allows users to search the restaurant by entering
+                    either the dishes or restaurants' names in the specific
+                    localtion
                   </p>
                   <p className='about-para font-18'>
-                    The project is about building an application that helps to
-                    create simple but effective 2D animations from shapes by
-                    using MVC design pattern and OOP principles. The application
-                    allows user to input different shapes, move them, change
-                    their colors or sizes as well as the speed. It also reads
-                    the txt file and shows the text output, animation or exports
-                    svg file.
+                    The search results will show the very first 50 restaurants
+                    in the list. It will also shows the rates and prices' ranges
+                    of the restaurant.
+                  </p>
+                  <p className='about-para font-18'>
+                    The result pages currently just show the three images of the
+                    most famous dishes in the restaurant
                   </p>
                   <Image
                     className='card-icon'
-                    src={require('../images/java.png')}
+                    src={require('../images/react.png')}
+                  />
+                  <Image
+                    className='card-icon'
+                    src={require('../images/javascript.png')}
                   />
                 </Card.Text>
+
                 <Button variant='light' className='btn-bg'>
                   <a
                     className='link'
                     target='_blank'
-                    href='https://60e3ab25582304f7c2eee526--ngockhanhvyle.netlify.app/easy-animators.svg'
+                    href='https://github.com/khanhvy1703/restaurant-search-app'
                     rel='noreferrer'
                   >
-                    Sample output
+                    Source code
                   </a>
-                </Button>
-                <Button
-                  variant='secondary'
-                  disabled
-                  className='btn-bg btn-mg-left'
-                >
-                  Source code
                 </Button>
               </Card.Body>
             </Card>
