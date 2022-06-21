@@ -35,7 +35,7 @@ export default function About() {
               Khoury College of Computer Science
             </h2>
             <h2 className='vertical-timeline-element-subtitle'>Boston, MA</h2>
-            <p>Teaching Assistant for CS3000 - Algorithm and Data Structure</p>
+            <p>Teaching Assistant for CS3000 - Algorithms and Data Structure</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className='vertical-timeline-element--work'
@@ -49,7 +49,7 @@ export default function About() {
               Khoury College of Computer Science
             </h2>
             <h2 className='vertical-timeline-element-subtitle'>Boston, MA</h2>
-            <p>Teaching Assistant for CS2810 - Mathametics of Data Models</p>
+            <p>Teaching Assistant for CS2810 - Mathematics of Data Models</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className='vertical-timeline-element--work'

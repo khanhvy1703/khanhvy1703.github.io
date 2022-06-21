@@ -9,7 +9,7 @@ export default function About() {
       <Container className='mg-top'>
         <Row>
           <Col md={8}>
-            <p className='main-header main-mg-top'>My About</p>
+            <p className='main-header main-mg-top'>About Me</p>
             <ColoredLine height={5} color='black' width='17%' />
             <p className='about-para font-18'>
               <span>Hi! I'm Ngoc. I am from Vietnam</span>
@@ -24,7 +24,7 @@ export default function About() {
             </p>
             <p className='about-para font-18'>
               I am currently studying Computer Science and Mathematics at
-              Northeastern University in Boston, MA. I am extremely enjoying it.
+              Northeastern University in Boston, MA. I am really enjoying it.
               I love coding and solving problems. Coding is hard and
               time-consuming but when you fix all the bugs and make your
               programs work, the feeling after that is unspeakable.
@@ -33,7 +33,7 @@ export default function About() {
               I am currently mainly coding in Javascript, Typescript and NodeJS. I have had ~
               1-year experience working with React, Typescript and NodeJS
               through course work, internship and CS club. I am interested in
-              software engineer (frontend, backend or fullstack), or mobile developement
+              software engineering (frontend, backend or fullstack), or mobile developement
               in finance/fintech, gaming industry and healthcare.
             </p>
             <p className='about-para font-18'>

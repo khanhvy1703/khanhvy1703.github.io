@@ -24,7 +24,7 @@ export default function Projects() {
                 <Card.Text>
                   <p className='about-para font-18'>
                     It is a group project from CS4530 - a town where people will
-                    be able to join, chat and videos call.
+                    be able to join, chat, and call video.
                   </p>
                   <p className='about-para font-18'>
                     My group contributed to the CoveyTown source code made by
@@ -40,7 +40,7 @@ export default function Projects() {
                       unique usernames
                     </li>
                     <li>
-                      Users can able to send friends' requests, add friends or
+                      Users can be able to send friends' requests, add friends or
                       invite their friends to join their current town
                     </li>
                   </ul>
