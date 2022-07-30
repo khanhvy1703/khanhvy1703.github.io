@@ -25,8 +25,21 @@ export default function About() {
               fontSize: '18px',
             }}
             contentArrowStyle={{ borderRight: '7px solid rgb(112, 166, 202)' }}
-            date='May 2022 - Present'
+            date='May 2022 - June 2022'
             iconStyle={{ background: 'rgb(112, 166, 202)' }}
+          >
+            <h3 className='vertical-timeline-element-title'>
+              Software Engineer Coop
+            </h3>
+            <h2 className='vertical-timeline-element-subtitle'>
+              Priceline
+            </h2>
+            <h2 className='vertical-timeline-element-subtitle'>New York, NY</h2>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className='vertical-timeline-element--work'
+            date='May 2022 - June 2022'
+            iconStyle={{ background: 'rgb(71,89,101)' }}
           >
             <h3 className='vertical-timeline-element-title'>
               Teaching Assisstant
@@ -53,7 +66,7 @@ export default function About() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className='vertical-timeline-element--work'
-            date='September 2021 - February 2022'
+            date='September 2021 - December 2021'
             iconStyle={{ background: 'rgb(71,89,101)' }}
           >
             <h3 className='vertical-timeline-element-title'>

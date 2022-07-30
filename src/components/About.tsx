@@ -45,8 +45,7 @@ export default function About() {
                 <Accordion.Header>What I do and will do </Accordion.Header>
                 <Accordion.Body>
                   <ul>
-                    <li>Be a TA for CS3000 in Summer 1</li>
-                    <li>Go to NYC and start my coop at Priceline in July</li>
+                    <li>Start my coop at Priceline in July</li>
                     <li>Hike more </li>
                   </ul>
                 </Accordion.Body>
