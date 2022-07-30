@@ -25,7 +25,7 @@ export default function About() {
               fontSize: '18px',
             }}
             contentArrowStyle={{ borderRight: '7px solid rgb(112, 166, 202)' }}
-            date='May 2022 - June 2022'
+            date='July 2022 - Present'
             iconStyle={{ background: 'rgb(112, 166, 202)' }}
           >
             <h3 className='vertical-timeline-element-title'>
