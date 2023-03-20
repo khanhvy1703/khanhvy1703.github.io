@@ -25,8 +25,21 @@ export default function About() {
               fontSize: '18px',
             }}
             contentArrowStyle={{ borderRight: '7px solid rgb(112, 166, 202)' }}
-            date='July 2022 - Present'
+            date='Jan 2023 - Present'
             iconStyle={{ background: 'rgb(112, 166, 202)' }}
+          >
+            <h3 className='vertical-timeline-element-title'>
+              Teaching Assistant
+            </h3>
+            <h2 className='vertical-timeline-element-subtitle'>
+              Khoury College of Computer Science
+            </h2>
+            <h2 className='vertical-timeline-element-subtitle'>New York, NY</h2>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className='vertical-timeline-element--work'
+            date='July 2022 - December 2022'
+            iconStyle={{ background: 'rgb(71,89,101)' }}
           >
             <h3 className='vertical-timeline-element-title'>
               Software Engineer Coop
@@ -34,7 +47,7 @@ export default function About() {
             <h2 className='vertical-timeline-element-subtitle'>
               Priceline
             </h2>
-            <h2 className='vertical-timeline-element-subtitle'>New York, NY</h2>
+            <h2 className='vertical-timeline-element-subtitle'>Boston, MA</h2>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className='vertical-timeline-element--work'
