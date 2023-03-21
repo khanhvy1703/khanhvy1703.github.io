@@ -151,7 +151,7 @@ export default function Projects() {
           </Col>
         </Row>
         <Row className='mg-top-row'>
-          <Col className='row-content'>
+        <Col className='row-content'>
             <Card
               className='hover-right'
               style={{
@@ -161,30 +161,51 @@ export default function Projects() {
               }}
             >
               <Card.Body>
-                <Card.Title>Pyramid Solitare</Card.Title>
+                <Card.Title>Minesweeper</Card.Title>
                 <Card.Text>
                   <p className='about-para font-18'>
-                    This project was created for Object-Oriented Design class
-                    (CS3500). The source code for this project has been set
-                    private due to the instructor's requests.
+                    My version of classic video game. The game is recommened try
+                    on PC since the flag cant be rendered in the phone
                   </p>
                   <p className='about-para font-18'>
-                    This is a text-based version of Pyramid Solitaire game. It
-                    is made by using the MVC design pattern and OOP, using the
-                    command-line arguments to play. The game is enhanced and
-                    there are 3 different levels for users to choose.
+                    The gameplay is not changes: open all not-bomb cells untill
+                    there are not any not-bomb cells available to open.
+                    Currently there are three difficulties: Beginner(8x8),
+                    Intermediate(16x16) and Expert(30x16)- the custom level will
+                    be developed soon.
                   </p>
                   <Image
                     className='card-icon'
-                    src={require('../images/java.png')}
+                    src={require('../images/react.png')}
+                  />
+                  <Image
+                    className='card-icon'
+                    src={require('../images/typescript.png')}
+                  />
+                  <Image
+                    className='card-icon'
+                    src={require('../images/nodeJS.png')}
                   />
                 </Card.Text>
-                <Button
-                  variant='secondary'
-                  disabled
-                  className='btn-bg btn-mg-left'
-                >
-                  Source code
+                <Button variant='light' className='btn-bg'>
+                  <a
+                    className='link'
+                    target='_blank'
+                    href='https://main--resilient-licorice-de4d8d.netlify.app/'
+                    rel='noreferrer'
+                  >
+                    Demo
+                  </a>
+                </Button>
+                <Button variant='light' className='btn-bg'>
+                  <a
+                    className='link'
+                    target='_blank'
+                    href='https://github.com/khanhvy1703/minesweeper-react'
+                    rel='noreferrer'
+                  >
+                    Source code
+                  </a>
                 </Button>
               </Card.Body>
             </Card>
@@ -242,102 +263,6 @@ export default function Projects() {
                     className='link'
                     target='_blank'
                     href='https://github.com/khanhvy1703/snake-react'
-                    rel='noreferrer'
-                  >
-                    Source code
-                  </a>
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row className='mg-top-row'>
-          <Col className='row-content'>
-            <Card
-              className='hover-right'
-              style={{
-                width: '35rem',
-                borderRadius: '10px',
-                boxShadow: '1px 3px 1px #5F9EA0',
-              }}
-            >
-              <Card.Body>
-                <Card.Title>Minesweeper</Card.Title>
-                <Card.Text>
-                  <p className='about-para font-18'>
-                    My version of classic video game. The game is recommened try
-                    on PC since the flag cant be rendered in the phone
-                  </p>
-                  <p className='about-para font-18'>
-                    The gameplay is not changes: open all not-bomb cells untill
-                    there are not any not-bomb cells available to open.
-                    Currently there are three difficulties: Beginner(8x8),
-                    Intermediate(16x16) and Expert(30x16)- the custom level will
-                    be developed soon.
-                  </p>
-                  <Image
-                    className='card-icon'
-                    src={require('../images/react.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/typescript.png')}
-                  />
-                </Card.Text>
-                <Button variant='light' className='btn-bg'>
-                  <a
-                    className='link'
-                    target='_blank'
-                    href='https://github.com/khanhvy1703/minesweeper-react'
-                    rel='noreferrer'
-                  >
-                    Source code
-                  </a>
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col className='row-content mg-top-col'>
-            <Card
-              className='hover-left'
-              style={{
-                width: '35rem',
-                borderRadius: '10px',
-                boxShadow: '1px 3px 1px #5F9EA0',
-              }}
-            >
-              <Card.Body>
-                <Card.Title>Restaurant Searching Mobile App</Card.Title>
-                <Card.Text>
-                  <p className='about-para font-18'>
-                    An app allows users to search the restaurant by entering
-                    either the dishes or restaurants' names in the specific
-                    localtion
-                  </p>
-                  <p className='about-para font-18'>
-                    The search results will show the very first 50 restaurants
-                    in the list. It will also shows the rates and prices' ranges
-                    of the restaurant.
-                  </p>
-                  <p className='about-para font-18'>
-                    The result pages currently just show the three images of the
-                    most famous dishes in the restaurant
-                  </p>
-                  <Image
-                    className='card-icon'
-                    src={require('../images/react.png')}
-                  />
-                  <Image
-                    className='card-icon'
-                    src={require('../images/javascript.png')}
-                  />
-                </Card.Text>
-
-                <Button variant='light' className='btn-bg'>
-                  <a
-                    className='link'
-                    target='_blank'
-                    href='https://github.com/khanhvy1703/restaurant-search-app'
                     rel='noreferrer'
                   >
                     Source code
